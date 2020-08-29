@@ -76,7 +76,7 @@
 				width: 100%;
 				color: white;
 				border-radius: 10px;
-                margin-top: 10px;
+                margin-top: 1000px;
 				box-shadow: 2px 2px 10px 0px grey;
             }
             #cr
@@ -113,7 +113,7 @@
 			</div>
 			<div class="header_item">
                 <a href='activeChats.php'><img class='user_icon' id='chat' src='https://cdn.iconscout.com/icon/premium/png-256-thumb/love-chat-24-663677.png'></a>
-				<a href="userProfile.php"><img class="user_icon" id="profile" src="https://www.shareicon.net/download/2016/11/09/851666_user_512x512.png"></a>
+				<a href="userProfile.php"><img class="user_icon" id="profile" src="https://images.vexels.com/media/users/3/147102/isolated/preview/082213cb0f9eabb7e6715f59ef7d322a-instagram-profile-icon-by-vexels.png"></a>
 				<div class="header_item" style="display: inline; width: 30px;">
 					<img class="user_icon" onclick="logOut()" src="https://www.freeiconspng.com/uploads/shutdown-icon-28.png">
 				</div>

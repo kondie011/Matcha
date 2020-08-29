@@ -76,7 +76,7 @@
 				width: 100%;
 				color: white;
 				border-radius: 10px;
-                margin-top: 10px;
+                margin-top: 1000px;
 				box-shadow: 2px 2px 10px 0px grey;
             }
             #cr
@@ -123,7 +123,7 @@
 	</head>
 	<body>
         <div id="header">
-			<a href="index.php"><img class="web_icon" src="https://cdn.icon-icons.com/icons2/1472/PNG/512/3011610-arms-couple-hold-in-lesbian-love_101380.png"></a>
+			<a href="index.php"><img class="web_icon" src="https://i.pinimg.com/originals/94/e4/9a/94e49a31c3f1f0295dccee9298f0e5f8.png"></a>
 			<div class="header_item">
                 <?php
                     include_once "config.php";
@@ -141,7 +141,7 @@
 			</div>
 			<div class="header_item">
                 <a href='notifs.php'><img class='user_icon' id='alert' src='http://icons.iconarchive.com/icons/icons8/christmas-flat-color/512/jingle-bell-icon.png'></a>
-				<a href="userProfile.php"><img class="user_icon" id="profile" src="https://www.shareicon.net/download/2016/11/09/851666_user_512x512.png"></a>
+				<a href="userProfile.php"><img class="user_icon" id="profile" src="https://images.vexels.com/media/users/3/147102/isolated/preview/082213cb0f9eabb7e6715f59ef7d322a-instagram-profile-icon-by-vexels.png"></a>
 				<div class="header_item" style="display: inline; width: 30px;">
 					<img class="user_icon" onclick="logOut()" src="https://www.freeiconspng.com/uploads/shutdown-icon-28.png">
 				</div>
