@@ -95,7 +95,7 @@
 	</head>
 	<body>
         <div id="header">
-			<a href="index.php"><img class="web_icon" src="https://cdn.icon-icons.com/icons2/1472/PNG/512/3011610-arms-couple-hold-in-lesbian-love_101380.png"></a>
+			<a href="index.php"><img class="web_icon" src="https://i.pinimg.com/originals/94/e4/9a/94e49a31c3f1f0295dccee9298f0e5f8.png"></a>
 			<div class="header_item">
                 <?php
                     include_once "config.php";

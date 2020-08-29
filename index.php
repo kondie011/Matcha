@@ -40,7 +40,7 @@
 <html>
 	<head>
 		<script src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
-		<title>Camagru</title>
+		<title>Matcha</title>
 		<style>
 			body
 			{
@@ -351,12 +351,12 @@
 			<div class="header_item">
                 <a href='activeChats.php'><img class='user_icon' id='chat' src='https://cdn.iconscout.com/icon/premium/png-256-thumb/love-chat-24-663677.png'></a>
                 <a href='notifs.php'><img class='user_icon' id='alert' src='http://icons.iconarchive.com/icons/icons8/christmas-flat-color/512/jingle-bell-icon.png'></a>
-				<a href="userProfile.php"><img class="user_icon" src="https://www.shareicon.net/download/2016/11/09/851666_user_512x512.png"></a>
+				<a href="userProfile.php"><img class="user_icon" src="https://images.vexels.com/media/users/3/147102/isolated/preview/082213cb0f9eabb7e6715f59ef7d322a-instagram-profile-icon-by-vexels.png"></a>
 				<div class="header_item" style="display: inline; width: 30px;">
 					<img class="user_icon" onclick="logOut()" src="https://www.freeiconspng.com/uploads/shutdown-icon-28.png">
 				</div>
 			</div>
-			<img class="web_icon" src="https://cdn.icon-icons.com/icons2/1472/PNG/512/3011610-arms-couple-hold-in-lesbian-love_101380.png">
+			<img class="web_icon" src="https://www.pngitem.com/pimgs/m/518-5183771_thumb-image-naruto-y-hinata-png-transparent-png.png">
 			<div class="header_item">
                 <?php
                     include_once "config/config.php";
@@ -368,7 +368,7 @@
                     }
                     else
                     {
-                        echo "<p id='web_name'>Camagru</p>";
+                        echo "<p id='web_name'>Matcha</p>";
                     }
                 ?>
 			</div>

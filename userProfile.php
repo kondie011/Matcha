@@ -207,7 +207,7 @@
     </head>
     <body>
     <div id="header">
-			<a href="index.php"><img class="web_icon" src="https://cdn.icon-icons.com/icons2/1472/PNG/512/3011610-arms-couple-hold-in-lesbian-love_101380.png"></a>
+			<a href="index.php"><img class="web_icon" src="https://i.pinimg.com/originals/94/e4/9a/94e49a31c3f1f0295dccee9298f0e5f8.png"></a>
 			<div class="header_item">
                 <?php
                     include_once "config.php";
@@ -396,7 +396,7 @@
                 }
                 if ($visited == $username)
                 {
-                    echo "<a href='upload_pic.php?from=profile'><img id='change_ppic' src='http://icons-for-free.com/free-icons/png/512/1312548.png'/></a>";
+                    echo "<a href='upload_pic.php?from=profile'><img id='change_ppic' src='https://lh3.googleusercontent.com/proxy/AsN7D2WHiUy_yV8HrKiVXCvUDWlTNf0fCSLagORKixjWTLpmrSm5E7EGJirpl4C1P9MQkx_o_bh5Ffrg_x9guK7BypwOOWzNuPYX1JuK8T-YI_Lu2xETGLL8mh-s7Jg0omqvfWtumsYNt0FpFvk_mmytrmCLlv6ldf9GGYL-BYUel6FPBjiIEb7X9JgFpiYm22gpPx54_auLqBOCMC18W6uUw_36-VKiiy-8awq9j64'/></a>";
                 }
                 else
                 {
@@ -443,7 +443,7 @@
                     }
                     if ($visited == $username)
                     {
-                        echo "<a href='upload_pic.php?from=".'upload'."'><img id='upload_pics' src='http://icons-for-free.com/free-icons/png/512/1312548.png'/></a>";
+                        echo "<a href='upload_pic.php?from=".'upload'."'><img id='upload_pics' src='https://lh3.googleusercontent.com/proxy/AsN7D2WHiUy_yV8HrKiVXCvUDWlTNf0fCSLagORKixjWTLpmrSm5E7EGJirpl4C1P9MQkx_o_bh5Ffrg_x9guK7BypwOOWzNuPYX1JuK8T-YI_Lu2xETGLL8mh-s7Jg0omqvfWtumsYNt0FpFvk_mmytrmCLlv6ldf9GGYL-BYUel6FPBjiIEb7X9JgFpiYm22gpPx54_auLqBOCMC18W6uUw_36-VKiiy-8awq9j64'/></a>";
                     }
 
                 ?>
@@ -527,7 +527,7 @@
                                     </select>";
                         }
                         echo    "</div><br/>
-                                <div class='detail_item'><label class='detail_item_v'>Interests: ".$details['interests']."</label>";
+                                <div class='detail_item'><label class='detail_item_v'>Interests: ".$details['intersts']."</label>";
                         if ($visited == $username)
                         {
                             echo    "<input class='detail_item_change' type='button' name='login' value='Edit interests' onclick='changeInterests()'/>";
