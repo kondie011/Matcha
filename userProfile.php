@@ -396,7 +396,7 @@
                 }
                 if ($visited == $username)
                 {
-                    echo "<a href='upload_pic.php?from=profile'><img id='change_ppic' src='https://lh3.googleusercontent.com/proxy/AsN7D2WHiUy_yV8HrKiVXCvUDWlTNf0fCSLagORKixjWTLpmrSm5E7EGJirpl4C1P9MQkx_o_bh5Ffrg_x9guK7BypwOOWzNuPYX1JuK8T-YI_Lu2xETGLL8mh-s7Jg0omqvfWtumsYNt0FpFvk_mmytrmCLlv6ldf9GGYL-BYUel6FPBjiIEb7X9JgFpiYm22gpPx54_auLqBOCMC18W6uUw_36-VKiiy-8awq9j64'/></a>";
+                    echo "<a href='upload_pic.php?from=profile'><img id='change_ppic' src='https://img2.pngio.com/arrow-upload-2-icon-colorful-long-shadow-iconset-graphicloads-upload-icon-png-256_256.png'/></a>";
                 }
                 else
                 {
@@ -443,7 +443,7 @@
                     }
                     if ($visited == $username)
                     {
-                        echo "<a href='upload_pic.php?from=".'upload'."'><img id='upload_pics' src='https://lh3.googleusercontent.com/proxy/AsN7D2WHiUy_yV8HrKiVXCvUDWlTNf0fCSLagORKixjWTLpmrSm5E7EGJirpl4C1P9MQkx_o_bh5Ffrg_x9guK7BypwOOWzNuPYX1JuK8T-YI_Lu2xETGLL8mh-s7Jg0omqvfWtumsYNt0FpFvk_mmytrmCLlv6ldf9GGYL-BYUel6FPBjiIEb7X9JgFpiYm22gpPx54_auLqBOCMC18W6uUw_36-VKiiy-8awq9j64'/></a>";
+                        echo "<a href='upload_pic.php?from=".'upload'."'><img id='upload_pics' src='https://img2.pngio.com/arrow-upload-2-icon-colorful-long-shadow-iconset-graphicloads-upload-icon-png-256_256.png'/></a>";
                     }
 
                 ?>
