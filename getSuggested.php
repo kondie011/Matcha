@@ -8,7 +8,7 @@
                         $sort = $_GET['sort'];
                         $filter = $_GET['filter'];
                         $getUserInfoQ = "SELECT * FROM `user` WHERE `username` = ?";
-                        $getSeggestionsQ = "SELECT `username` FROM `user` WHERE `location` REGEXP ? AND `username` != ? && `interests` REGEXP ? AND `sexual_pref` REGEXP ? AND `rating` >= ? AND `rating` <= ? ORDER BY `$sort`";
+                        $getSeggestionsQ = "SELECT `username` FROM `user` WHERE `location` REGEXP ? AND `username` != ? AND `interests` REGEXP ? AND `sexual_pref` REGEXP ? AND `rating` >= ? AND `rating` <= ? ORDER BY `$sort`";
 
                         $getUserInfoR = $conn->prepare($getUserInfoQ);
                         $getUserInfoR->execute([$username]);

@@ -154,7 +154,7 @@
                 include_once "config/config.php";
 
                 $username = $_SESSION['login'];
-
+echo $username;
                 $getLikedQ = "SELECT * FROM `user_like` WHERE `liker` = ?";
                 $getMatchQ = "SELECT * FROM `user_like` WHERE `liker` = ? AND `liked` = ?";
                 $getUserQ = "SELECT * FROM `user` WHERE `username` = ?";
@@ -164,6 +164,7 @@
                 while($liked = $getLikedR->fetch())
                 {
                     $getMatchR = $conn->prepare($getMatchQ);
+                    echo $liked['liked'];
                     $getMatchR->execute([$liked['liked'], $username]);
                     while ($match = $getMatchR->fetch())
                     {
